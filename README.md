@@ -13,7 +13,11 @@ At the end of each campaign, IASC provides participation certificates to team le
 
 ## Demo
 Watch the demo video:-
-https://github.com/user-attachments/assets/8ac21f2a-2e8c-41ba-8e1e-80967ad3e03f
+
+
+https://github.com/user-attachments/assets/7b96f5a8-4a12-4d3f-b85d-2d35ceb5ae8b
+
+
 
 ## Try It Out
 Access the web application here: [IASC Certificate Splitter](https://iasc-certificate-splitter.streamlit.app/)
