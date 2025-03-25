@@ -17,7 +17,7 @@ if "bg_url" not in st.session_state:
 set_background(st.session_state.bg_url)
 
 # App Header
-st.markdown("<h1 style='text-align: left; color: #f09d0e;'>IASC Certificate Splitter</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; color: #f09d0e;'>📜 IASC Certificate Splitter</h1>", unsafe_allow_html=True)
 st.text("")
 
 # How to Use the App Box
