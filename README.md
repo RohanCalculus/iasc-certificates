@@ -20,7 +20,12 @@ https://github.com/user-attachments/assets/7b96f5a8-4a12-4d3f-b85d-2d35ceb5ae8b
 
 
 ## Try It Out
-Access the web application here: [IASC Certificate Splitter](https://iasc-certificate-splitter.streamlit.app/)
+- Access the web application here: [IASC Certificate Splitter](https://iasc-certificate-splitter.streamlit.app/)
+- Note:- Please click on `Yes, get this app back up!` and wait until the app loads in case you see this screen:-             
+
+  <img src='media/oven.png' width=50%></img>
+- This usually happens if app is not used for quite sometime! But no worries, app will be live the moment you click that button!
+
 
 ## How It Works
 1. Upload the PDF file containing multiple certificates.
