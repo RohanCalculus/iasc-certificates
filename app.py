@@ -3,6 +3,12 @@ from utils.pdf_utils import split_pdf
 from utils.zip_utils import zip_pdfs
 from utils.bg_utils import set_background, choose_image
 
+# Page Configuration
+st.set_page_config(
+    page_title="IASC Certificate Splitter",
+    page_icon="📜"
+)
+
 # Store the background image in session state
 if "bg_url" not in st.session_state:
     st.session_state.bg_url = choose_image()
