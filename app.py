@@ -17,8 +17,24 @@ if "bg_url" not in st.session_state:
 set_background(st.session_state.bg_url)
 
 # App Header
-st.markdown("<h1 style='text-align: left; color: mint;'>IASC Certificate Splitter</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; color: #f09d0e;'>IASC Certificate Splitter</h1>", unsafe_allow_html=True)
 st.text("")
+
+# How to Use the App Box
+with st.expander(":red[**How to Use the App?**]", expanded=False):
+    st.markdown(
+        """
+        <div style='background-color: rgba(0, 0, 0, 0.8); padding: 5px; border-radius: 10px; margin: 0px 0px 10px 0px'>
+            <ol>
+                <li><b>Upload</b> the PDF file containing multiple certificates.</li>
+                <li>The application <b>processes</b> the document and extracts each certificate.</li>
+                <li>Each certificate is <b>saved individually</b>, named after the recipient.</li>
+                <li><b>Download</b> the split certificates for easy distribution.</li>
+            </ol>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 # File Uploader
 uploaded_file = st.file_uploader("Upload Multi-Page Certificate PDF:", type=["pdf"])
